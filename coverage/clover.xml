@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1511697006678" clover="3.2.0">
+  <project timestamp="1511697006679" name="All files">
+    <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2" elements="16" coveredelements="16" complexity="0" loc="10" ncloc="10" packages="2" files="3" classes="3">
+      <package name="homework">
+        <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <file name="day4_1.js" path="/hard/study/homework/day4_1.js">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="12" count="4" type="stmt"/>
+          <line num="13" count="4" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+        </file>
+        <file name="day4_2.js" path="/hard/study/homework/day4_2.js">
+          <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="5" type="cond" truecount="2" falsecount="0"/>
+          <line num="6" count="5" type="stmt"/>
+          <line num="8" count="5" type="stmt"/>
+          <line num="9" count="18" type="cond" truecount="2" falsecount="0"/>
+          <line num="10" count="5" type="stmt"/>
+          <line num="13" count="5" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.lib">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <file name="math.js" path="/hard/study/src/lib/math.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

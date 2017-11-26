@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  // function f() { return "global";}
+  //
+  // function test(x) {
+  //   function f() { return "lacal";}
+  //   var result = [];
+  //   if (x){
+  //     result.push(f());
+  //   }
+  //   result.push(f());
+  //   return result;
+  // }
+  function f() { return "global";}
+
+  function test(x) {
+    var g = f, result = [];
+    if (x){
+      g = function() { return "lacal";}
+      result.push(g());
+    }
+    result.push(g());
+    return result;
+  }
+    console.log(test(true));
+    console.log(test(false));
+    console.log(test(true));
+
+</script>
+</body>
+</html>
