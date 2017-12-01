@@ -24,33 +24,31 @@ var math = {
     return result;
   },
 	countIf : function(a, b){
-		var target = ['남','여','남','여','여','여','남','여'];	  	
+    var array = a instanceof Array ? a : arguments;
 		var result = 0;
-		for(var i = 0; i < target.length; i++) {
-			if(target[i] === b) {
+		for(var i = 0; i < array.length; i++) {
+			if(array[i] === b) {
 				result += 1;
 			}
 		}
 		return result;
 	},
 	sumIfOver : function(a, b){
-		//var array = a instanceof Array ? a : arguments;
-		var target = [3,9,33,55,12];
+		var array = a instanceof Array ? a : arguments;
 		var result = 0;
-		for(var i = 0; i < target.length; i++) {
-			if(target[i] > b) {
-				result += target[i];
+		for(var i = 0; i < array.length; i++) {
+			if(array[i] > b) {
+				result += array[i];
 			}
 		}
 		return result;
 	},
 	sumIfUnder : function(a, b){
-		//var array = a instanceof Array ? a : arguments;
-		var target = [3,9,33,55,12];
+		var array = a instanceof Array ? a : arguments;
 		var result = 0;
-		for(var i = 0; i < target.length; i++) {
-			if(target[i] <= b) {
-				result += target[i];
+		for(var i = 0; i < array.length; i++) {
+			if(array[i] <= b) {
+				result += array[i];
 			}
 		}
 		return result;
