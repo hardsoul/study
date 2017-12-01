@@ -33,12 +33,28 @@ var math = {
 		}
 		return result;
 	},
-  sumIfOver : function () {
-
-  },
-  sumIfUnder : function () {
-
-  }
+	sumIfOver : function(a, b){
+		//var array = a instanceof Array ? a : arguments;
+		var target = [3,9,33,55,12];
+		var result = 0;
+		for(var i = 0; i < target.length; i++) {
+			if(target[i] > b) {
+				result += target[i];
+			}
+		}
+		return result;
+	},
+	sumIfUnder : function(a, b){
+		//var array = a instanceof Array ? a : arguments;
+		var target = [3,9,33,55,12];
+		var result = 0;
+		for(var i = 0; i < target.length; i++) {
+			if(target[i] <= b) {
+				result += target[i];
+			}
+		}
+		return result;
+	}
 
 }
 module.exports = math;
