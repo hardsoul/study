@@ -23,9 +23,16 @@ var math = {
     }
     return result;
   },
-  countIf : function () {
-
-  },
+	countIf : function(a, b){
+		var target = ['남','여','남','여','여','여','남','여'];	  	
+		var result = 0;
+		for(var i = 0; i < target.length; i++) {
+			if(target[i] === b) {
+				result += 1;
+			}
+		}
+		return result;
+	},
   sumIfOver : function () {
 
   },
