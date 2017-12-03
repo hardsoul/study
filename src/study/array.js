@@ -41,7 +41,7 @@ var arr = [3,9,33,55,12];
 
 var result = arr.filter(function(v, i, arr) {
   //console.log(v, i, arr);
-  return v <= 10;
+  return v >= 10;
 }).reduce(function(p, c){
   return p + c;
 }, 0);
