@@ -47,6 +47,7 @@ var result = arr.filter(function(v, i, arr) {
 }, 0);
 
 console.log(result);
+//안되나?
 
 
 
