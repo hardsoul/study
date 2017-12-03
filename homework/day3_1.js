@@ -2,25 +2,12 @@ var slider = {
   currentIndex: 0,
   next: function(step) {
     var defaultStep = 1;
-    /*if(step > 0) {
-      this.currentIndex += step;
-    } else {
-      this.currentIndex += defaultStep;
-    }*/
     this.currentIndex += step > 0 ? step : defaultStep;
   },
   prev: function(step) {
-    /*if(this.currentIndex > 0) {
-      this.currentIndex -= 1;
-    }*/
-    //if(this.currentIndex <= 0) return;
-
     this.currentIndex -= step ? step : 1;
   },
   go: function(index) {
-    /*if(index > 0) {
-      this.currentIndex = index;
-    }*/
     if(index <= 0) return;
     this.currentIndex = index;
   }

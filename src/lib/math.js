@@ -39,6 +39,7 @@ var math = {
 				result += arr[i];
 			}
 		}
+		//여기서 일을 2가지 하고있다. 이걸 1개로 수정해야해. 반복하면서1, 찾는거 1개 총 2개의 일.
 		return result;
 	},
 	sumIfUnder : function(arr, limit){
