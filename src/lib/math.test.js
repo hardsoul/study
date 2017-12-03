@@ -23,8 +23,10 @@ test('주어진 숫자에서 최대값을 구할 수 있다', function() {
 
 test('주어진 대상의 개수를 반환한다', function() {
   var target = ['남','여','남','여','여','여','남','여'];
+  var target2 = ['포도', '사과', '딸기', '포도'];
   expect(math.countIf(target, '남')).toBe(3);
   expect(math.countIf(target, '여')).toBe(5);
+  expect(math.countIf(target2, '포도')).toBe(2);
 });
 
 describe('특정 범위 계산', function() {

@@ -13,7 +13,7 @@ var math = {
     }
     return result;
   },
-  max : function (a,b,c) {
+  max : function (a) {
     var array = a instanceof Array ? a : arguments;
     var result = array[0];
     for(var i = 0; i < array.length; i++) {
@@ -23,32 +23,29 @@ var math = {
     }
     return result;
   },
-	countIf : function(a, b){
-    var array = a instanceof Array ? a : arguments;
-		var result = 0;
-		for(var i = 0; i < array.length; i++) {
-			if(array[i] === b) {
-				result += 1;
+	countIf : function(arr, target){
+    var result = 0;
+		for(var i = 0; i < arr.length; i++) {
+			if(arr[i] === target) {
+				result++;
 			}
 		}
 		return result;
 	},
-	sumIfOver : function(a, b){
-		var array = a instanceof Array ? a : arguments;
+	sumIfOver : function(arr, limit){
 		var result = 0;
-		for(var i = 0; i < array.length; i++) {
-			if(array[i] > b) {
-				result += array[i];
+		for(var i = 0; i < arr.length; i++) {
+			if(arr[i] > limit) {
+				result += arr[i];
 			}
 		}
 		return result;
 	},
-	sumIfUnder : function(a, b){
-		var array = a instanceof Array ? a : arguments;
+	sumIfUnder : function(arr, limit){
 		var result = 0;
-		for(var i = 0; i < array.length; i++) {
-			if(array[i] <= b) {
-				result += array[i];
+		for(var i = 0; i < arr.length; i++) {
+			if(arr[i] <= limit) {
+				result += arr[i];
 			}
 		}
 		return result;
