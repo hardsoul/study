@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1512265659244" clover="3.2.0">
-  <project timestamp="1512265659244" name="All files">
+<coverage generated="1512867382786" clover="3.2.0">
+  <project timestamp="1512867382786" name="All files">
     <metrics statements="47" coveredstatements="47" conditionals="20" coveredconditionals="20" methods="9" coveredmethods="9" elements="76" coveredelements="76" complexity="0" loc="47" ncloc="47" packages="2" files="4" classes="4">
       <package name="homework">
         <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
@@ -58,13 +58,13 @@
           <line num="37" count="2" type="stmt"/>
           <line num="38" count="10" type="cond" truecount="2" falsecount="0"/>
           <line num="39" count="5" type="stmt"/>
-          <line num="42" count="2" type="stmt"/>
-          <line num="45" count="2" type="stmt"/>
+          <line num="43" count="2" type="stmt"/>
           <line num="46" count="2" type="stmt"/>
-          <line num="47" count="10" type="cond" truecount="2" falsecount="0"/>
-          <line num="48" count="7" type="stmt"/>
-          <line num="51" count="2" type="stmt"/>
-          <line num="55" count="1" type="stmt"/>
+          <line num="47" count="2" type="stmt"/>
+          <line num="48" count="10" type="cond" truecount="2" falsecount="0"/>
+          <line num="49" count="7" type="stmt"/>
+          <line num="52" count="2" type="stmt"/>
+          <line num="56" count="1" type="stmt"/>
         </file>
       </package>
     </metrics>
