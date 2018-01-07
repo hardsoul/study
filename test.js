@@ -5,11 +5,11 @@ function addAll() {
   }
   return sum;
 }
-
-var nums =[];
+//test coding
+var nums01 =[];
 for (var i = 0; i < 1000000; i++) {
-  nums.push(i);
+  nums01.push(i);
 }
 
 console.log(addAll(2,4,6));
-console.log(addAll.apply(null, nums));
+console.log(addAll.apply(null, nums01));
